@@ -3,8 +3,8 @@ Instruction to find TAZ data and prepare TAZ polygon geometry and centroid longi
 
 Three files are required for processing dynamic traffic assignments, TAZ.csv, node.csv, and link.csv. In the classic version of DTALite, the zone-to-node mapping is specified in node.csv through the field of zone_id, as Figure 1 shown. However, there is a challenge when mapping TAZ-based information to the network at different resolutions.
 ![image](https://github.com/FangTang999/TAZ-polygon-and-centroid-geometry/blob/main/image/Fig_1.png)
- 
-Figure 1 node.csv
+<p align="center">Figure 1 node.csv</p> 
+
 
 Thus, in the preprocessing stage, we allow users to prepare (1) TAZ with boundary information, and then (2) DTALite will generate the zone.csv as an explicit mapping between zone_id and access node vector. Then users can still manually edit the accesss_node_vector to refine the zone-to-node mapping in zone.csv
 
