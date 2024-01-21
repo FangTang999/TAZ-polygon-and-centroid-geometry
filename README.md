@@ -39,4 +39,3 @@ e.	OK
 3. Change the fields' name of "WKT", "TAZCE10", "INTPTLAT10" and "INTPTLON10" as " geometry", "TAZ", "y_coord", and "x_coord " repectively.
    
 Note: we need to use a text editor to open the TAZ.csv, since there could be some display errors if we use Excel to open it due to the limitation of string length.
-![image](https://github.com/FangTang999/TAZ-polygon-and-centroid-geometry/assets/38580581/b9284083-26e8-4026-80d3-cbe3eaa6a3f6)
