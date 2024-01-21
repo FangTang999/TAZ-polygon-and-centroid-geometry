@@ -2,7 +2,7 @@
 Instruction to find TAZ data and prepare TAZ polygon geometry and centroid longitude and latitude in WKT format.
 
 Three files are required for processing dynamic traffic assignments, TAZ.csv, node.csv, and link.csv. In the classic version of DTALite, the zone-to-node mapping is specified in node.csv through the field of zone_id, as Figure 1 shown. However, there is a challenge when mapping TAZ-based information to the network at different resolutions.
-
+![image](https://github.com/FangTang999/TAZ-polygon-and-centroid-geometry/image/Fig_1)
  
 Figure 1 node.csv
 
